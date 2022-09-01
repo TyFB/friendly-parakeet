@@ -22,36 +22,36 @@ function generatePassword() {
   if (true){
     for (i =0; i < length; i++) {
       charUp += alpha.charAt(Math.floor(Math.random() * alpha.length));
-    }
+    };
   }
-  else {
+  else if (false) {
     charUp = "";
   };
   var charLow = confirm("Do you need a Lowercase letter?")
   if (true) {
     for (i = 0; i < length; i++) {
       charLow += beta.charAt(Math.floor(Math.random() * beta.length));
-    }
+    };
   }
-  else {
+  else if (false) {
     charLow = "";
   }
   var charSpc = confirm("Any special characters required?")
   if (true) {
     for (i=0; i<length; i++) {
       charSpc += special.charAt(Math.floor(Math.random() * special.length));
-    }
+    };
   }
-  else {
+  else if (false) {
     charSpc = "";
   }
   var charNum = confirm("Final parameter is there any numbers needed?")
   if (true) {
    for (i=0; i<length; i++) {
     charNum += numbers.charAt(Math.floor(Math.random() * numbers.length));
-   }
+   };
   }
-  else {
+  else if (false) {
     charNum = "";
   }
 
